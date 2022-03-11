@@ -6,13 +6,12 @@
 *.xlsx
 *.pkl
 *.pickle
+*.parquet
 *.csv
 *.json
 *.h5
 *todo.txt
 *.DS_Store
-*TEMP.ipynb
-*LSTM Shap.ipynb
 
 # Things to keep
 !BOOTSTRAP_STATIC_URL_season_4_previous_gw_37.json

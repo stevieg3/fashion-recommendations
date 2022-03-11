@@ -1,0 +1,2 @@
+- For each user take data rollback approach
+- Predict sequence of purchases - buys a t-shirt so next purchase likely to be shorts
