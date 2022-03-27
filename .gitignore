@@ -8,6 +8,8 @@
 *.pickle
 *.parquet
 *.csv
+*.tsv
+*.zip
 *.json
 *.h5
 *todo.txt
