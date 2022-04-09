@@ -19,7 +19,8 @@ def prepare_splits(train_df, dev_df, name):
     train_df['uid'] = train_df.index
 
     # Sample transactions by customer to use as labels
-    labels = train_df[['customer_id', 'uid']].groupby('customer_id').sample(n=1, random_state=RANDOM_SEED)
+    # labels = train_df[['customer_id', 'uid']].groupby('customer_id').sample(n=1, random_state=RANDOM_SEED)
+    labels = train_df[['customer_id', 'uid']].groupby('customer_id').tail(1)  # Use last transaction as label
     labels['label'] = 1
 
     # Drop customer transactions after the label
