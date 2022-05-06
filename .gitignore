@@ -10,6 +10,7 @@
 *.csv
 *.tsv
 *.zip
+*.jpg
 *.json
 *.h5
 *todo.txt
